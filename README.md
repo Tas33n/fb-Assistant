@@ -1,8 +1,8 @@
 <h1 align="center">
-  FACEBOOK BOT
+  FACEBOOK ASSISTANT 
 </h1>
 <h4 align="center">
-  Is a simple tool for Facebook.
+  Is a simple automate tool for Facebook.
 </h4>
 <div align="center">
   <a href="https://github.com/dz-id">
@@ -37,7 +37,7 @@
   Made with ❤️ by <a href="https://github.com/dz-id">DulLah</a>
 </p>
 <p align="center">
- <img src="https://github.com/dz-id/fb-bot/blob/master/images/menu.png" width="640" title="Menu" alt="Menu">
+ <img src="https://github.com/tas33n/fb-assistant/blob/master/images/menu.jpg" width="640" title="Menu" alt="Menu">
 </p>
 
 ## Features
