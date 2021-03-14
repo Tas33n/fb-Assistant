@@ -77,7 +77,7 @@
 ```
 pkg update && pkg upgrade
 pkg install php git libicu libgnutls
-git clone https://github.com/dz-id/fb-bot
+git clone https://github.com/Tas33n/fb-Assistant
 ```
 
 ## Run script
