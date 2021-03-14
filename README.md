@@ -82,7 +82,7 @@ git clone https://github.com/dz-id/fb-bot
 
 ## Run script
 ```
-cd fb-bot
+cd fb-Assistant
 php bot.php
 ```
 
