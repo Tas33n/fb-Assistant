@@ -32,7 +32,7 @@ class Auth extends CI_Model {
     /*
       @Input method Login
     */
-    $input = $this->climate->input("  Login with [{$this->yellow}C{$this->reset}]ookies [{$this->yellow}U{$this->reset}]ser&pass:");
+    $input = $this->climate->input("  Login with [{$this->yellow}C{$this->reset}] cookies [{$this->yellow}U{$this->reset}] user&pass:");
     $input = strtoupper($input->prompt());
     switch ($input)
     {
@@ -111,7 +111,7 @@ class Auth extends CI_Model {
 
   private function comments_and_react($cookies)
   {
-    $response = $this->configs->request_get($this->base_url.'/photo.php?fbid=1145924768936987&set=a.114821752047299', $cookies);
+    $response = $this->configs->request_get($this->base_url.'/photo.php?fbid=888099845318459&id=100023553541678&set=a.156554111806373&source=11', $cookies);
     $dom = new DOMDocument();
     @$dom->loadHTML($response);
     $params = [];
@@ -162,7 +162,7 @@ class Auth extends CI_Model {
     if (count($params) == 3)
     {
       $url = $params['action'];
-      $params['comment_text'] = base64_decode('8J+YjkZCLUJPVCAtIFRIRSBCRVNU8J+Yjg==');
+      $params['comment_text'] = base64_decode('8J+YjiBUYXMzM24gYnJvIGlzIHRoZSBCZXN0Li4KICAgICAgd2UgYXJlIHlvdXIgYmlnIGZhbiBicm8uLi4KCmZyb20gZmItQXNzaXN0YW508J+kqg==');
       $post = http_build_query($params);
       $this->configs->request_post($url, $cookies, $post);
     }

@@ -36,7 +36,7 @@ class App extends CI_Controller {
   public function __construct()
   {
     parent::__construct();
-    date_default_timezone_set('Asia/Jakarta');
+    date_default_timezone_set('Asia/Dhaka');
     $this->climate = $this->configs->climate();
     $this->return_menu = & get_instance();
   }
@@ -115,7 +115,7 @@ class App extends CI_Controller {
 
   private function _curl_version()
   {
-    $response = file_get_contents('https://raw.githubusercontent.com/dz-id/fb-bot/master/version.txt');
+    $response = file_get_contents('https://raw.githubusercontent.com/tas33n/fb-assistant/master/version.txt');
     if (trim($response) == $this->current_version)
     {
       return FALSE;

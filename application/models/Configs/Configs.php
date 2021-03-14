@@ -24,9 +24,10 @@ class Configs extends CI_Model {
     $this->banner = PHP_EOL."
 {$this->yellow}                         \ \ {$this->reset}| {$this->yellow}* %s
 {$this->yellow}    .-'''''-.    __       |/ {$this->reset}|----------------------------
-{$this->yellow}   /         \.'`  `',.--//  {$this->reset}| {$this->yellow}* BOT FOR FACEBOOK [{$this->red}CLI{$this->yellow}]
-{$this->yellow} -(  {$this->red}FACEBOOK{$this->yellow} | {$this->red}BOT{$this->yellow}  |  @@\  {$this->reset}| {$this->yellow}* AUTHOR : DulLah
+{$this->yellow}   /         \.'`  `',.--//  {$this->reset}| {$this->yellow}* FACEBOOK Assistant [{$this->red}CLI{$this->yellow}]
+{$this->yellow} -(  {$this->red}Assistant{$this->yellow} | {$this->red}Fb{$this->yellow}  |  @@\  {$this->reset}| {$this->yellow}* AUTHOR : DulLah
 {$this->yellow}   \         /'.____.'\___|  {$this->reset}| {$this->yellow}* GIT    : github.com/dz-id
+{$this->yellow}   \         /'.____.'\___|  {$this->reset}| {$this->yellow}* REMODE : Tas33n github.com/tas33n
 {$this->yellow}    '-.....-' __/ | \   (`)  {$this->reset}|----------------------------
 {$this->reset}    v1.1 dev{$this->yellow} /   /  /        {$this->reset}| {$this->yellow}* %s
 {$this->yellow}                 \  \ \n{$this->reset}".PHP_EOL;
@@ -153,9 +154,9 @@ class Configs extends CI_Model {
   public function show_menu_update_status() {
     $menu = json_encode(
       array(
-        ['no' => '01', 'name' => 'Status Bucin'],
-        ['no' => '02', 'name' => 'Status Islam'],
-        ['no' => '03', 'name' => 'Status Bijak'],
+        ['no' => '01', 'name' => 'Status Love'],
+        ['no' => '02', 'name' => 'Status Sad'],
+        ['no' => '03', 'name' => 'Status Fun'],
         ['no' => '00', 'name' => 'Back'],
       )
     );

@@ -35,15 +35,15 @@ class Update_status extends CI_Model {
     switch ($input)
     {
       case '01':
-        $this->caption = $this->configs->list_captions('bucin.txt');
+        $this->caption = $this->configs->list_captions('Love.txt');
         $this->update();
         break;
       case '02':
-        $this->caption = $this->configs->list_captions('islam.txt');
+        $this->caption = $this->configs->list_captions('Sad.txt');
         $this->update();
         break;
       case '03':
-        $this->caption = $this->configs->list_captions('bijak.txt');
+        $this->caption = $this->configs->list_captions('Fun.txt');
         $this->update();
         break;
       case '0':
